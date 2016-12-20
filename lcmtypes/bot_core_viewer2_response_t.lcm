@@ -1,0 +1,13 @@
+package bot_core;
+
+struct viewer2_response_t
+{
+	int64_t timestamp;
+	
+	int8_t status;
+	const int8_t STATUS_OK            = 0;
+	const int8_t STATUS_MISSING_LINKS = 1;
+	const int8_t STATUS_LINK_LOAD_FAILURE = 2;
+
+	string json;
+}

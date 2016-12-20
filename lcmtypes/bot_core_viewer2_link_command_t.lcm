@@ -1,0 +1,8 @@
+package bot_core;
+
+struct viewer2_link_command_t
+{
+	string robot_id;
+	string hash;
+	position_3d_t pose;
+}
