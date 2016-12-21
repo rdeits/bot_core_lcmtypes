@@ -1,9 +1,0 @@
-package bot_core;
-
-struct viewer2_path_list_t 
-{
-	int64_t timestamp;
-
-	int32_t num_paths;
-	string paths[num_paths];
-}
