@@ -61,6 +61,13 @@ lcm_wrap_types(
   bot_core_viewer_geometry_data_t.lcm
   bot_core_viewer_link_data_t.lcm
   bot_core_viewer_load_robot_t.lcm
+  bot_core_mesh_3d_t.lcm
+  bot_core_mesh_face_t.lcm
+  bot_core_viewer2_draw_t.lcm
+  bot_core_viewer2_link_data_t.lcm
+  bot_core_viewer2_load_links_t.lcm
+  bot_core_viewer2_response_t.lcm
+  bot_core_viewer2_path_list_t.lcm
 )
 
 add_library(lcmtypes_bot2-core ${sources})

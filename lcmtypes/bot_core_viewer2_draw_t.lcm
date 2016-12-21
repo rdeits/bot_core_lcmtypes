@@ -2,8 +2,10 @@ package bot_core;
 
 struct viewer2_draw_t
 {
-  int64_t timestamp;
+	int64_t timestamp;
 
-  int32_t num_links;
-  viewer2_link_command_t links[num_links];
+	string robot_id;
+	int32_t num_links;
+	string paths[num_links];
+	position_3d_t poses[num_links];
 }

@@ -2,6 +2,6 @@ package bot_core;
 
 struct mesh_face_t
 {
-	int8_t num_vertices
+	int8_t num_vertices;
 	int64_t vertex_indices[num_vertices];
 }

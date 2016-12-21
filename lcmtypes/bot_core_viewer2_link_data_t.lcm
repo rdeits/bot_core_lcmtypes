@@ -2,15 +2,9 @@ package bot_core;
 
 struct viewer2_link_data_t 
 {
-	string name;
+	string path;
 
-	int32_t num_primitives;
-	viewer_geometry_data_t primitives[num_primitives];
-
-	int32_t num_pointclouds;
-	pointcloud_t pointclouds[num_pointclouds];
-
-	int32_t num_meshes;
-	mesh_3d_t meshes[num_meshes];
+	int32_t num_geometries;
+	viewer_geometry_data_t geometries[num_geometries];
 }
 

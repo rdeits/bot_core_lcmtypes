@@ -4,10 +4,12 @@ struct viewer2_response_t
 {
 	int64_t timestamp;
 	
-	int8_t status;
-	const int8_t STATUS_OK            = 0;
-	const int8_t STATUS_MISSING_LINKS = 1;
-	const int8_t STATUS_LINK_LOAD_FAILURE = 2;
+	int32_t status;
+	const int32_t STATUS_OK            = 0;
+	const int32_t STATUS_NO_SUCH_LINK = 1;
+	const int32_t STATUS_LINK_LOAD_ERROR = 2;
+	const int32_t STATUS_DELETE_ERROR = 3;
+	const int32_t STATUS_DRAW_ERROR = 4;
 
 	string json;
 }
